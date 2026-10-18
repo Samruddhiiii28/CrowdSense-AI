@@ -1,0 +1,19 @@
+DAY 26: RISK PREDICTION STABILITY REPORT
+Input rows: 34
+Prediction column: predicted_risk
+
+Risk distribution:
+- LOW: 19
+- HIGH: 10
+- MEDIUM: 5
+
+Comparable consecutive pairs: 33
+Changed predictions: 17
+Change rate: 51.52%
+
+Observed transitions:
+- HIGH -> LOW: 6
+- LOW -> HIGH: 5
+- LOW -> MEDIUM: 3
+- MEDIUM -> HIGH: 2
+- MEDIUM -> LOW: 1

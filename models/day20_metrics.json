@@ -1,0 +1,49 @@
+{
+    "dataset_rows": 94,
+    "training_rows": 75,
+    "test_rows": 19,
+    "class_distribution": {
+        "LOW": 52,
+        "HIGH": 32,
+        "MEDIUM": 10
+    },
+    "accuracy": 0.8421052631578947,
+    "balanced_accuracy": 0.7474747474747474,
+    "labels": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+    ],
+    "confusion_matrix": [
+        [
+            10,
+            1,
+            0
+        ],
+        [
+            1,
+            1,
+            0
+        ],
+        [
+            1,
+            0,
+            5
+        ]
+    ],
+    "features": [
+        "total_people_mean",
+        "total_people_max",
+        "total_people_min",
+        "zone_a_mean",
+        "zone_b_mean",
+        "zone_c_mean",
+        "zone_d_mean",
+        "avg_movement_mean",
+        "people_change",
+        "rolling_people_mean",
+        "people_change_per_minute",
+        "observations"
+    ],
+    "label_source": "Prototype-generated risk labels; not independently verified real-world safety labels."
+}

@@ -1,0 +1,9 @@
+{
+  "dataset_rows": 95,
+  "training_rows": 76,
+  "testing_rows": 19,
+  "accuracy": 0.8421052631578947,
+  "balanced_accuracy": 0.7474747474747474,
+  "evaluation": "stratified_holdout",
+  "target": "Day 18 prototype labels"
+}
